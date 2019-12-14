@@ -1,0 +1,14 @@
+＃ifndef _SIMPLE_
+#define _SIMPLE_
+
+class simple {
+public:
+    void create(int width, int height);
+    static void main();
+
+private:
+    static LRESULT CALLBACK simple_proc(HWND hwnd, UINT msg, WPARAM wparam, LPARAM lparam);
+};
+
+#endif
+
