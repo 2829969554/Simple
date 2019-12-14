@@ -1,6 +1,8 @@
 ＃ifndef _SIMPLE_
 #define _SIMPLE_
 
+_KRI_BEGIN
+
 class simple {
 public:
     void create(int width, int height);
@@ -9,6 +11,8 @@ public:
 private:
     static LRESULT CALLBACK simple_proc(HWND hwnd, UINT msg, WPARAM wparam, LPARAM lparam);
 };
+
+_KRI_END
 
 #endif
 
