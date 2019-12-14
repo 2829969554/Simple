@@ -14,5 +14,9 @@ void simple::main() {
     }
 }
 
+LRESULT simple::simple_proc(HWND hwnd, UINT msg, WPARAM wparam, LPARAM lparam) {
+    return DefWindowProcA(hwnd, msg, wparam, lparam);
+}
+
 _KRI_END
 
